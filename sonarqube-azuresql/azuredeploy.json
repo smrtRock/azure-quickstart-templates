@@ -116,7 +116,7 @@
     "SQvmAppImageOffer": "JDK",
     "SQvmAppWindowsOSVersion": "JDK_8",
     "SQvmAppOSDiskName": "SQvmAppOSDisk",
-    "SQvmAppVmSize": "Standard_DS1_v2",
+    "SQvmAppVmSize": "Standard_B1s",
     "SQvmAppVnetID": "[resourceId('Microsoft.Network/virtualNetworks', 'SQvnet')]",
     "SQvmAppSubnetRef": "[concat(variables('SQvmAppVnetID'), '/subnets/', variables('SQvnetExternalSubnetName'))]",
     "SQvmAppStorageAccountContainerName": "vhds",
