@@ -30,7 +30,19 @@
         "description": "Password for the SonarQube VM Admin account"
       }
     },
-
+   "SQvmAppVmSize":{
+    "type": "string",
+    "defaultValue": "Standard_B1ms",
+      "allowedValues": [
+        "Standard_A2",
+        "Basic_A2",
+        "Standard_B1ms",
+        "Standard_B1s",
+        "Standard_D1",
+        "Standard_DS1",
+        "Standard_D1_v2"
+      ]
+  },
 
     "sqDB_Admin_UserName": {
       "type": "string",
